@@ -1,0 +1,202 @@
+#student {
+    float: left;
+    width: 40%;
+}
+
+#group {
+    float: left;
+    width: 30%;
+}
+
+#variant {
+    float: left;
+    width: 30%;
+}
+
+#author div div:first-child {
+    background: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#author div:first-child div {
+    margin-left: 20px;
+}
+
+#author div div:last-child {
+    background: grey;
+    font-size: 20px;
+    border-radius: 0 0 8px 8px;
+    margin-right: 20px;
+}
+
+#table div:first-child {
+    background: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#table div:last-child{
+    background: white;
+    border-radius: 0 0 8px 8px;
+    margin-right: 20px;
+}
+
+#data{
+    border-spacing: 20px;
+    width: 100%;
+}
+
+#data thead *{
+    background: grey;
+    font-size: 20px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#data tbody tr td {
+    background: #2b2b2b;
+    font-size: 20px;
+    border-radius: 8px 8px 8px 8px;
+}
+
+#data tbody tr td.true {
+    background: #87E549F9;
+}
+
+#data tbody tr td.false {
+    background: #E51C22;
+}
+
+#x_col {
+    width: 10%;
+}
+
+#y_col {
+    width: 10%;
+}
+
+#r_col {
+    width: 10%;
+}
+
+#cur_col {
+    width: 25%;
+}
+
+#ex_col {
+    width: 25%;
+}
+
+#res_col {
+    width: 20%;
+}
+
+#form > div:first-child {
+    background: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#form > div:last-child{
+    background: white;
+    border-radius: 0 0 8px 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#values div div:first-child{
+    display: inline;
+    width: 10%;
+    float: left;
+
+    background: black;
+    font-size: 20px;
+    border-radius: 8px 8px 8px 8px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#values input[type="text"]{
+    width: 30%;
+    border-radius: 8px 8px 8px 8px;
+    border-width: 2px;
+    border-color: black;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#values select {
+    font-size: 15px;
+    color: grey;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 5px;
+
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#values .button *{
+    background-color: black;
+    color: white;
+    border-radius: 8px 8px 8px 8px;
+    border-width: 1px;
+    border-color: black;
+    font-size: 20px;
+}
+
+.errors * {
+    color: #E51C22;
+}
+
+#graph div:first-child {
+    background: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 8px 8px 0 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#graph div:last-child {
+    border-radius: 0 0 8px 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#graph img {
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+}
+
+#left {
+    float: left;
+    width: 35%;
+}
+
+#right {
+    float: left;
+    width: 65%;
+}
+
+html {
+    background-color: rgb(250, 218, 221);
+    font-family: sans-serif;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}

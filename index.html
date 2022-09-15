@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web lab1</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/validator.js"></script>
+    <style id="style">
+    </style>
+</head>
+<body>
+
+<header>
+    <div id="author">
+        <div id="student">
+            <div>Student</div>
+            <div>Pavlova Alina Egorovna</div>
+        </div>
+        <div id="group">
+            <div>Group</div>
+            <div>P32141</div>
+        </div>
+        <div id="variant">
+            <div>Variant</div>
+            <div>1218</div>
+        </div>
+    </div>
+</header>
+<section>
+    <div id="left">
+        <div id="graph">
+            <div>
+                Graph
+            </div>
+            <div>
+                <img id="graph_img" src="img/graph.jpg" alt="graph">
+            </div>
+        </div>
+        <div id="form">
+            <div>
+                Form
+            </div>
+            <div>
+                <form id="values" name="values" action="" method="get" onsubmit="return submitForm()" onreset="resetForm()">
+                    <div id="x_val">
+                        <div>
+                            <label>
+                                X
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <select id="x" name="X">
+                                    <option value="err" hidden disabled selected>&nbsp &nbsp &nbsp &nbsp Select &nbsp &nbsp &nbsp &nbsp
+                                    </option>
+                                    <option value="-4">&nbsp &nbsp &nbsp &nbsp -4</option>
+                                    <option value="-3">&nbsp &nbsp &nbsp &nbsp -3</option>
+                                    <option value="-2">&nbsp &nbsp &nbsp &nbsp -2</option>
+                                    <option value="-1">&nbsp &nbsp &nbsp &nbsp -1</option>
+                                    <option value="0">&nbsp &nbsp &nbsp &nbsp 0</option>
+                                    <option value="1">&nbsp &nbsp &nbsp &nbsp 1</option>
+                                    <option value="2">&nbsp &nbsp &nbsp &nbsp 2</option>
+                                    <option value="3">&nbsp &nbsp &nbsp &nbsp 3</option>
+                                    <option value="4">&nbsp &nbsp &nbsp &nbsp 4</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="errors">
+                            <label id="x_err">
+                                <br>
+                            </label>
+                        </div>
+                    </div>
+                    <div id="y_val">
+                        <div>
+                            <label>
+                                Y
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input id="y" type="text" name="Y" placeholder="Value from -5 to 3" class="Y_text">
+                            </label>
+                        </div>
+                        <div class="errors">
+                            <label id="y_err">
+                                <br>
+                            </label>
+                        </div>
+                    </div>
+                    <div id="r_val">
+                        <div>
+                            <label>
+                                R
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input id="r" type="text" name="R" placeholder="Value from 2 to 5" class="R_text">
+                            </label>
+                        </div>
+                        <div class="errors">
+                            <label id="r_err">
+                                <br>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Submit" name="submit">
+                        <input type="reset" value="Reset" name="reset">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="right">
+        <div id="table">
+            <div>
+                Table
+            </div>
+            <div>
+                <table id="data">
+                    <thead>
+                    <tr>
+                        <td id="x_col">X</td>
+                        <td id="y_col">Y</td>
+                        <td id="r_col">R</td>
+                        <td id="cur_col">Current time</td>
+                        <td id="ex_col">Execution time</td>
+                        <td id="res_col">Hit result</td>
+                    </tr>
+                    </thead>
+                    <tbody id="rows">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
